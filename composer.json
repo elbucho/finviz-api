@@ -1,0 +1,24 @@
+{
+  "name": "elbucho/finviz-api",
+  "description": "Unofficial PHP SDK to access the Finviz Stock Screener",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Michael Hinkson",
+      "email": "mjhinkson@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "elbucho/config": "*",
+    "symfony/yaml": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elbucho\\FinvizApi\\": "src/"
+    }
+  }
+}

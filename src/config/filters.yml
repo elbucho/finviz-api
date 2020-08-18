@@ -1,0 +1,261 @@
+exchange:
+  amex:                         exch_amex
+  nasdaq:                       exch_nasd
+  nyse:                         exch_nyse
+
+index:
+  sp_500:                       idx_sp500
+  dji:                          idx_dji
+
+sector:
+  basic_materials:              sec_basicmaterials
+  communication_services:       sec_communicationservices
+  consumer_cyclical:            sec_consumercyclical
+  consumer_defensive:           sec_consumerdefensive
+  energy:                       sec_energy
+  financial:                    sec_financial
+  healthcare:                   sec_healthcare
+  industrials:                  sec_industrials
+  real_estate:                  sec_realestate
+  technology:                   sec_technology
+  utilities:                    sec_utilities
+
+industry:
+  real_estate_development:      ind_realestatedevelopment
+  real_estate_diversified:      ind_realestatediversified
+  real_estate_services:         ind_realestateservices
+  reit_diversified:             ind_reitdiversified
+  reit_healthcare_facilities:   ind_reithealthcarefacilities
+  reit_hotel_motel:             ind_reithotelmotel
+  reit_industrial:              ind_reitindustrial
+  reit_mortgage:                ind_reitmortgage
+  reit_office:                  ind_reitoffice
+  reit_residential:             ind_reitresidential
+  reit_retail:                  ind_reitretail
+  reit_specialty:               ind_reitspecialty
+
+market_cap:
+  mega:                         cap_mega
+  large:                        cap_large
+  mid:                          cap_mid
+  small:                        cap_small
+  micro:                        cap_micro
+  nano:                         cap_nano
+  large_and_over:               cap_largeover
+  mid_and_over:                 cap_midover
+  small_and_over:               cap_smallover
+  micro_and_over:               cap_microover
+  large_and_under:              cap_largeunder
+  mid_and_under:                cap_midunder
+  small_and_under:              cap_smallunder
+  micro_and_under:              cap_microunder
+
+float_short:
+  under_5:                      sh_short_u5
+  under_10:                     sh_short_u10
+  under_15:                     sh_short_u15
+  under_20:                     sh_short_u20
+  under_25:                     sh_short_u25
+  under_30:                     sh_short_u30
+  over_5:                       sh_short_o5
+  over_10:                      sh_short_o10
+  over_15:                      sh_short_o15
+  over_20:                      sh_short_o20
+  over_25:                      sh_short_o25
+  over_30:                      sh_short_o30
+
+analyst_recommendation:
+  strong_buy:                   an_recom_strongbuy
+  buy_or_better:                an_recom_buybetter
+  buy:                          an_recom_buy
+  hold_or_better:               an_recom_holdbetter
+  hold:                         an_recom_hold
+  hold_or_worse:                an_recom_holdworse
+  sell:                         an_recom_sell
+  sell_or_worse:                an_recom_sellworse
+  strong_sell:                  an_recom_strongsell
+
+earnings_date:
+  today:                        earningsdate_today
+  today_before_market_open:     earningsdate_todaybefore
+  today_after_market_close:     earningsdate_todayafter
+  tomorrow:                     earningsdate_tomorrow
+  tomorrow_before_market_open:  earningsdate_tomorrowbefore
+  tomorrow_after_market_close:  earningsdate_tomorrowafter
+  yesterday:                    earningsdate_yesterday
+  yesterday_before_market_open: earningsdate_yesterdaybefore
+  yesterday_after_market_close: earningsdate_yesterdayafter
+  next_5_days:                  earningsdate_nextdays5
+  previous_5_days:              earningsdate_prevdays5
+  this_week:                    earningsdate_thisweek
+  next_week:                    earningsdate_nextweek
+  previous_week:                earningsdate_prevweek
+  this_month:                   earningsdate_thismonth
+
+average_volume:
+  under_50k:                    sh_avgvol_u50
+  under_100k:                   sh_avgvol_u100
+  under_500k:                   sh_avgvol_u500
+  under_750k:                   sh_avgvol_u750
+  under_1m:                     sh_avgvol_u1000
+  over_50k:                     sh_avgvol_o50
+  over_100k:                    sh_avgvol_o100
+  over_200k:                    sh_avgvol_o200
+  over_300k:                    sh_avgvol_o300
+  over_400k:                    sh_avgvol_o400
+  over_500k:                    sh_avgvol_o500
+  over_750k:                    sh_avgvol_o750
+  over_1m:                      sh_avgvol_o1000
+  over_2m:                      sh_avgvol_o2000
+  100k_to_500k:                 sh_avgvol_100to500
+  100k_to_1m:                   sh_avgvol_100to1000
+  500k_to_1m:                   sh_avgvol_500to1000
+  500k_to_10m:                  sh_avgvol_500to10000
+
+relative_volume:
+  over_10:                      sh_relvol_o10
+  over_5:                       sh_relvol_o5
+  over_3:                       sh_relvol_o3
+  over_2:                       sh_relvol_o2
+  over_1.5:                     sh_relvol_o1.5
+  over_1:                       sh_relvol_o1
+  over_0.75:                    sh_relvol_o0.75
+  over_0.5:                     sh_relvol_o0.5
+  over_0.25:                    sh_relvol_o0.25
+  under_2:                      sh_relvol_u2
+  under_1.5:                    sh_relvol_u1.5
+  under_1:                      sh_relvol_u1
+  under_0.75:                   sh_relvol_u0.75
+  under_0.5:                    sh_relvol_u0.5
+  under_0.25:                   sh_relvol_u0.25
+  under_0.1:                    sh_relvol_u0.1
+
+current_volume:
+  under_50k:                    sh_curvol_u50
+  under_100k:                   sh_curvol_u100
+  under_500k:                   sh_curvol_u500
+  under_750k:                   sh_curvol_u750
+  under_1m:                     sh_curvol_u1000
+  over_0:                       sh_curvol_o0
+  over_50k:                     sh_curvol_o50
+  over_100k:                    sh_curvol_o100
+  over_200k:                    sh_curvol_o200
+  over_300k:                    sh_curvol_o300
+  over_400k:                    sh_curvol_o400
+  over_500k:                    sh_curvol_o500
+  over_750k:                    sh_curvol_o750
+  over_1m:                      sh_curvol_o1000
+  over_2m:                      sh_curvol_o2000
+  over_5m:                      sh_curvol_o5000
+  over_10m:                     sh_curvol_o10000
+  over_20m:                     sh_curvol_o20000
+
+price:
+  under_1:                      sh_price_u1
+  under_2:                      sh_price_u2
+  under_3:                      sh_price_u3
+  under_4:                      sh_price_u4
+  under_5:                      sh_price_u5
+  under_7:                      sh_price_u7
+  under_10:                     sh_price_u10
+  under_15:                     sh_price_u15
+  under_20:                     sh_price_u20
+  under_30:                     sh_price_u30
+  under_40:                     sh_price_u40
+  under_50:                     sh_price_u50
+  over_1:                       sh_price_o1
+  over_2:                       sh_price_o2
+  over_3:                       sh_price_o3
+  over_4:                       sh_price_o4
+  over_5:                       sh_price_o5
+  over_7:                       sh_price_o7
+  over_10:                      sh_price_o10
+  over_15:                      sh_price_o15
+  over_20:                      sh_price_o20
+  over_30:                      sh_price_o30
+  over_40:                      sh_price_o40
+  over_50:                      sh_price_o50
+  over_60:                      sh_price_o60
+  over_70:                      sh_price_o70
+  over_80:                      sh_price_o80
+  over_90:                      sh_price_o90
+  over_100:                     sh_price_o100
+  1_to_5:                       sh_price_1to5
+  1_to_10:                      sh_price_1to10
+  1_to_20:                      sh_price_1to20
+  5_to_10:                      sh_price_5to10
+  5_to_20:                      sh_price_5to20
+  5_to_50:                      sh_price_5to50
+  10_to_20:                     sh_price_10to20
+  10_to_50:                     sh_price_10to50
+  20_to_50:                     sh_price_20to50
+  50_to_100:                    sh_price_50to100
+
+target_price:
+  50_pct_above_price:           targetprice_a50
+  40_pct_above_price:           targetprice_a40
+  30_pct_above_price:           targetprice_a30
+  20_pct_above_price:           targetprice_a20
+  10_pct_above_price:           targetprice_a10
+  5_pct_above_price:            targetprice_a5
+  above_price:                  targetprice_above
+  below_price:                  targetprice_below
+  5_pct_below_price:            targetprice_b5
+  10_pct_below_price:           targetprice_b10
+  20_pct_below_price:           targetprice_b20
+  30_pct_below_price:           targetprice_b30
+  40_pct_below_price:           targetprice_b40
+  50_pct_below_price:           targetprice_b50
+
+ipo_date:
+  today:                        ipodate_today
+  yesterday:                    ipodate_yesterday
+  in_the_last_week:             ipodate_prevweek
+  in_the_last_month:            ipodate_prevmonth
+  in_the_last_quarter:          ipodate_prevquarter
+  in_the_last_year:             ipodate_prevyear
+  in_the_last_2_years:          ipodate_prev2yrs
+  in_the_last_3_years:          ipodate_prev3yrs
+  in_the_last_5_years:          ipodate_prev5yrs
+  more_than_a_year_ago:         ipodate_more1
+  more_than_5_years_ago:        ipodate_more5
+  more_than_10_years_ago:       ipodate_more10
+  more_than_15_years_ago:       ipodate_more15
+  more_than_20_years_ago:       ipodate_more20
+  more_than_25_years_ago:       ipodate_more25
+
+shares_outstanding:
+  under_1m:                     sh_outstanding_u1
+  under_5m:                     sh_outstanding_u5
+  under_10m:                    sh_outstanding_u10
+  under_20m:                    sh_outstanding_u20
+  under_50m:                    sh_outstanding_u50
+  under_100m:                   sh_outstanding_u100
+  over_1m:                      sh_outstanding_o1
+  over_2m:                      sh_outstanding_o2
+  over_5m:                      sh_outstanding_o5
+  over_10m:                     sh_outstanding_o10
+  over_20m:                     sh_outstanding_o20
+  over_50m:                     sh_outstanding_o50
+  over_100m:                    sh_outstanding_o100
+  over_200m:                    sh_outstanding_o200
+  over_500m:                    sh_outstanding_o500
+  over_1000m:                   sh_outstanding_o1000
+
+float:
+  under_1m:                     sh_float_u1
+  under_5m:                     sh_float_u5
+  under_10m:                    sh_float_u10
+  under_20m:                    sh_float_u20
+  under_50m:                    sh_float_u50
+  under_100m:                   sh_float_u100
+  over_1m:                      sh_float_o1
+  over_2m:                      sh_float_o2
+  over_5m:                      sh_float_o5
+  over_10m:                     sh_float_o10
+  over_20m:                     sh_float_o20
+  over_50m:                     sh_float_o50
+  over_100m:                    sh_float_o100
+  over_200m:                    sh_float_o200
+  over_500m:                    sh_float_o500
+  over_1000m:                   sh_float_o1000
