@@ -42,8 +42,6 @@ class Results implements \Iterator
             $this->parseBody($body);
         }
 
-        var_dump($this->pagePrev, $this->pageNext);
-
         return $this;
     }
 
@@ -251,7 +249,22 @@ class Results implements \Iterator
      */
     private function getText(string $value): string
     {
-        return $value;
+        preg_match("/^([0-9]+)\.([0-9]+)M$/", $value, $match);
+
+        if ( ! empty($match[1])) {
+            $secondary = ((empty($match[2]) or (strlen($match[2]) !== 2)) ? '00' : $match[2]);
+            $value = sprintf("%s%s0000", $match[1], $secondary);
+        }
+
+        return preg_replace(
+            [
+                "/\$/",
+                "/%/",
+                "/,/"
+            ],
+            '',
+            $value
+        );
     }
 
     /**
